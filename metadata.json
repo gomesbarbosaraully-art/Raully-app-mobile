@@ -1,0 +1,6 @@
+{
+  "name": "Insta King",
+  "description": "Rede social pública completa com fotos, vídeos, Direct (mensagens privadas), perfis personalizados e feed estilo Instagram.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

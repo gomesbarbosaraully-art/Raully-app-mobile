@@ -1,0 +1,59 @@
+{
+  "id": "com.instaking.social.app",
+  "name": "Insta King 👑 - Rede Social & King Messenger",
+  "short_name": "InstaKing",
+  "description": "A rede social oficial com Feed, Stories, Reels e Direct (PV) King Messenger ultrarrápido.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "window-controls-overlay", "minimal-ui"],
+  "background_color": "#09090b",
+  "theme_color": "#09090b",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "prefer_related_applications": false,
+  "categories": ["social", "entertainment", "photo", "communication"],
+  "shortcuts": [
+    {
+      "name": "King Messenger Direct",
+      "short_name": "Mensagens",
+      "description": "Abrir mensagens diretas",
+      "url": "/?view=messages",
+      "icons": [{ "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=192&q=80", "sizes": "192x192" }]
+    },
+    {
+      "name": "Publicar Foto / Vídeo",
+      "short_name": "Criar",
+      "description": "Criar nova publicação",
+      "url": "/?view=create",
+      "icons": [{ "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=192&q=80", "sizes": "192x192" }]
+    }
+  ],
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=192&q=80",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=192&q=80",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=512&q=80",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=512&q=80",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "maskable"
+    }
+  ]
+}
